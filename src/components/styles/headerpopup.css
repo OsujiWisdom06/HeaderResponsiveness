@@ -35,3 +35,15 @@
     align-items: center;
     padding-right: 10px;
 }
+
+.HeaderPopUp-btm{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}

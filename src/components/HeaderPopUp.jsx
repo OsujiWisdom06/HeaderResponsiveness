@@ -9,8 +9,13 @@ const HeaderPopUp = ({isOpen, onClose , children}) => {
             <div className='HeaderPopUp-top'>
                 <button onClick={onclose} style={{border: "none", cursor: "pointer", fontSize: "20px", background: "none", fontWeight: "600", color: "white"}}>X</button>
             </div>
+            <div className='HeaderPopUp-btm'>
+                <h3>Home</h3>
+                <h3>About-us</h3>
+                <h3>Contact-us</h3>
+                <h3>Blog</h3>
+            </div>
         </div>
-        {children}
     </div>
   )
 }
