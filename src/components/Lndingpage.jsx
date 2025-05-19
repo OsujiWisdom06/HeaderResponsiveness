@@ -3,7 +3,7 @@ import './styles/landingpage.css'
 
 const Lndingpage = () => {
   return (
-    <div>Lndingpage</div>
+    <div className=' lndingpage'></div>
   )
 }
 

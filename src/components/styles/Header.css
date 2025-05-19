@@ -69,3 +69,51 @@
         /* background-color: red; */
     }
  }
+
+ 
+ @media screen and (min-width: 321px) and (max-width: 475px){
+    .menu-icon-div{
+        display: block;
+    }
+
+    .service-div{
+        display: none;
+    }
+
+    
+    .header-first-div{
+       width: 20%;
+    }
+
+    .header-second-div{
+        display: flex;
+        justify-content: end;
+        width: 80%;
+        padding-top: 30px;
+        /* background-color: red; */
+    }
+ }
+
+ 
+ @media screen and (min-width: 476px) and (max-width: 675px){
+    .menu-icon-div{
+        display: block;
+    }
+
+    .service-div{
+        display: none;
+    }
+
+    
+    .header-first-div{
+       width: 20%;
+    }
+
+    .header-second-div{
+        display: flex;
+        justify-content: end;
+        width: 80%;
+        padding-top: 30px;
+        /* background-color: red; */
+    }
+ }
