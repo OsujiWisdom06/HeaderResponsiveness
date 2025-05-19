@@ -1,0 +1,37 @@
+.HeaderPopUp-overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.012);
+    position: fixed;
+    /* z-index: 999; */
+    top: 0px;
+    display: flex;
+    justify-content: end;
+}
+
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+.HeaderPopUp-content{
+    width: 55%;
+    height: 100%;
+    background-color: navy;
+    border-radius: 20px 0px 0px 20px;
+    animation: 2s slideInFromRight;
+}
+
+.HeaderPopUp-top{
+    width: 100%;
+    height: 10%;
+    /* background-color: magenta; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10px;
+}
